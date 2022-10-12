@@ -1,24 +1,26 @@
-# README
+# Full-stack Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[Gitmoji](https://gitmoji.dev/)
 
-Things you may want to cover:
+### Index
+- a list of all the things
+- get request
+- read CRUD action
+- controller method (done)
+  - holds the active record query
+- route (done)
+  - defining the url and calling the index method
+- view (done)
+  - iterated over AR array
+  - added HTML for markup structure
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Show
+- displays one thing
+- get request
+- read CRUD action
+- controller method (done)
+- route (done)
+  - Parameters: {"id"=>"1"} from the rails server in terminal
+- view (done)
+- add a route alias
+- add links to show and back to home
